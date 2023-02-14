@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario Bros - O filme</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+
+</head>
+<body>
+
+    <div class="fundo-video" >
+
+        <video class="video" autoplay loop muted src="./src/video/video-mario.mp4">
+
+            <source src="./src/video/video-mario.mp4" type="video/mp4">
+
+        </video>
+        
+    </div>
+
+
+    <header class="cabecalho">
+
+        <a href="">
+
+            <img class="logo" src="./src/imagens/logo-chapeu-mario.png" alt="logo chapeu do mario">
+        </a>
+
+        <nav >
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+      <main class="cotainer">
+
+        <div class="informacoes">
+
+            <img class="imagen-titulo" src="./src/imagens/titulo.png" alt="imagens do título">
+
+            <p class="descricao">Ícone da Nintendo, Mario marcou a história dos games em sua famosa série. Em 1980, após uma tentativa sem sucesso da Nintendo ao fazer um jogo baseado no desenho Popeye, Miyamoto, considerado o pai do Mario, foi então solicitado pela empresa para projetar um novo jogo baseado em suas próprias ideias.</p>
+
+            <button class="botao-trailer">Veja o trailer</button>
+
+        </div>
+
+        <img class="mario" src="./src/imagens/super-mario-chars.png" alt="super mario">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://youtu.be/jhM8E_1hK_0" title="Treiler oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+        <script src="./src/JS/index.js"></script>
+
+      </main>
+
+    
+</body>
+</html>
